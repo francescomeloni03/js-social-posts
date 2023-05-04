@@ -72,13 +72,13 @@ for(let c = 0; c < posts.length; c++) {
 
     <div class"post-meta__icon"> 
 
-    <img class="profile-pic" src="./${posts.author.image}" alt="${posts.author.name}">
+    <img class="profile-pic" src="./${posts[c].author.image}" alt="${posts[c].author.name}">
 
     </div>
 
      <div class="post-meta__data"> 
-     <div class="post-meta__author">${posts.author.name}</div>   
-     <div class="post-meta__time">${posts.created}</div>
+     <div class="post-meta__author">${posts[c].author.name}</div>   
+     <div class="post-meta__time">${posts[c].created}</div>
      </div>
 
 
